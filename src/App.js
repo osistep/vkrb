@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>The current server time is {currentTime}.</p>
+        <p>The time is {currentTime}.</p>
       </header>
     </div>
   );
