@@ -8,7 +8,7 @@ app = Flask(__name__, static_folder="../build", static_url_path='/')
 def index():
     return app.send_static_file('index.html')
 
-# Blah-blah
+# Time route
 @app.route('/api/time')
 def get_current_time():
     return {'time': time.time()}
